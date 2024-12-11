@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pch">
+      <UniqueIdentifier>{e2651f43-f041-46b8-a921-2abb738798d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{051304b6-9da7-4555-94ea-44a81f078a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{47d56ecd-7004-4953-917e-229d3ce00934}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePch.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
