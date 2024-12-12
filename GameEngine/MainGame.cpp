@@ -3,7 +3,7 @@
 
 void MainGame::Init()
 {
-	HelloWorld();
+
 }
 
 void MainGame::Update()

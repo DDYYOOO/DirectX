@@ -1,6 +1,8 @@
 #pragma once
 #include <Windows.h> 
 
+using namespace std; //??
+
 //Helper Ãß°¡
 #include "d3dx12.h"
 #include <d3d12.h>
